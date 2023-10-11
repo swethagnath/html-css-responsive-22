@@ -24,11 +24,21 @@
     <!-- custom css link -->
     <link rel="stylesheet" href="./main.css">
 
-      <!-- jquery cdn link -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-      <!-- custom js link -->
-      <script src="./js/main.js"></script>
+    <!-- custom js link -->
+    <script src="./main.js"></script>
+
+    <!-- magnific popup css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- magnific popup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- aos cdn js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
@@ -53,16 +63,16 @@
      </header>
      <!-- header section ends  -->
 
-     <!-- home section ends  -->
+     <!-- home section starts  -->
      <section class="home" id="home">
         <div class="container">
             <div class="row min-vh-100 align-items-center text-center text-md-left">
                
-                <div class="col-md-6 pr-md-5">
+                <div class="col-md-6" data-aos="zoom-in">
                     <img src="./images/Doctors-bro.png" width="100%" alt="">
                 </div>
 
-                <div class="col-md-6 pl-md-5 content">
+                <div class="col-md-6 pl-md-5 content" data-aos="fade-left">
                     <h1>
                         <span>stay</span>
                         <span>safe,</span>
@@ -84,27 +94,265 @@
      <section class="about" id="about">
         <div class="container">
             <div class="row min-vh-100 align-items-center">
-                <div class="col-md-6 content">
+                <div class="col-md-6 content" data-aos="fade-right">
+
                     <div class="box">
-                        <h3><i class="fas fa-ambulance"></i>ambulance service</h3>
+                        <h3><i class="fas fa-ambulance"></i> ambulance service</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est voluptatum nam nostrum a voluptatem soluta exercitationem obcaecati eligendi non qui hic quibusdam, repellat, ab culpa veritatis odio unde, cum laudantium?</p>
                     </div>
+
                     <div class="box">
-                        <h3><i class="fas fa-procedure"></i>emergency rooms</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, iure velit quasi minus perspiciatis molestias sit aliquam praesentium aspernatur corporis. Culpa et, voluptate recusandae illum reprehenderit aut. Nostrum, cumque quos!</p>
-                    </div>
-                    <div class="box">
-                        <h3><i class="fas fa-stethoscope"></i>free checkups</h3>
+                        <h3><i class="fas fa-stethoscope"></i> free checkups</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga soluta recusandae maiores laborum sunt sed, accusamus assumenda dignissimos voluptatum laudantium nihil distinctio facilis necessitatibus consequatur ab quis quidem exercitationem.</p>
                     </div>
+
+                    <div class="box">
+                        <h3><i class="fas fa-stethoscope"></i> free checkups</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fuga soluta recusandae maiores laborum sunt sed, accusamus assumenda dignissimos voluptatum laudantium nihil distinctio facilis necessitatibus consequatur ab quis quidem exercitationem.</p>
+                    </div>
+
                 </div>
                
-                <div class="col-md-6">
-                    <img src="./images/" alt="">
+                <div class="col-md-6 d-none d-md-block" data-aos="fade-right">
+                    <img src="https://webstockreview.net/images/clipart-doctor-lady-doctor-11.png" alt="" width="100%">
                 </div>
             </div>
         </div>
      </section>
       <!-- about section ends  -->
+
+    <!-- facility section starts  -->
+    <section class="facility" id="facility"> 
+        <div class="container">
+            
+            <h1 class="heading">
+                <span>'</span>
+                Our Facilities
+                <span>'</span>
+            </h1>
+
+            <div class="box-container">
+               
+                <div class="box" data-aos="zoom-in">
+                    <a href="./images/hosp-img-1.jpg" title="our team">
+                        <img src="./images/hosp-img-1.jpg" alt=""/>
+                    </a>
+                </div>
+
+                <div class="box" data-aos="zoom-in">
+                    <a href="./images/hosp-img-1.jpg" title="our lab">
+                        <img src="./images/hosp-img-1.jpg" alt=""/>
+                    </a>
+                </div>
+
+                <div class="box" data-aos="zoom-in">
+                    <a href="./images/hosp-img-1.jpg" title="emergency rooms">
+                        <img src="./images/hosp-img-1.jpg" alt=""/>
+                    </a>
+                </div>
+
+                <div class="box" data-aos="zoom-in">
+                    <a href="./images/hosp-img-2.jpg" title="enough beds">
+                        <img src="./images/hosp-img-2.jpg" alt=""/>
+                    </a>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+    <!-- facility section ends  -->
+
+    <!-- review section starts  -->
+    <section class="review" id="review">
+        <div class="container">
+            <h1 class="heading">
+                <span>'</span>
+                People's Review
+                <span>'</span>
+            </h1>
+            <div class="box-container">
+                <div class="box" data-aos="fade-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a quas molestias sit incidunt pariatur sint blanditiis, natus facilis, ducimus magni explicabo quos laboriosam repudiandae, iusto consequuntur debitis in amet?</p>
+                    <h3>someone's name</h3>
+                    <span>jan 9 , 2021</span>
+                    <img src="./images/img.jpeg" alt=""/>
+                </div>
+
+                <div class="box" data-aos="fade-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a quas molestias sit incidunt pariatur sint blanditiis, natus facilis, ducimus magni explicabo quos laboriosam repudiandae, iusto consequuntur debitis in amet?</p>
+                    <h3>someone's name</h3>
+                    <span>jan 9 , 2021</span>
+                    <img src="./images/img.jpeg" alt=""/>
+                </div>
+
+                <div class="box"  data-aos="left">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a quas molestias sit incidunt pariatur sint blanditiis, natus facilis, ducimus magni explicabo quos laboriosam repudiandae, iusto consequuntur debitis in amet?</p>
+                    <h3>someone's name</h3>
+                    <span>jan 9 , 2021</span>
+                    <img src="./images/img.jpeg" alt=""/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section ends  -->
+
+    <!-- counter section ends  -->
+    <section class="counter">
+        <div class="container">
+            <div class="box-container">
+                <div class="box" data-aos="fade-up">
+                    <i class="fas fa-hospital"></i>
+                    <span>120+</span>
+                    <h3>hospital</h3>
+                </div>
+
+                <div class="box" data-aos="fade-up">
+                    <i class="fas fa-hospital"></i>
+                    <span>1200+</span>
+                    <h3>happy patients</h3>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <i class="fas fa-hospital"></i>
+                <span>130+</span>
+                <h3>bed facility</h3>
+        </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- counter section ends  -->
+    
+    <!-- contact section starts  -->
+    <section class="contact" id="contact">
+        <div class="container min-vh-100">
+            <div class="row justify-content-center">
+                <h1 class="heading">
+                    <span>'</span>
+                    make an appoinment
+                    <span>'</span>
+                </h1>
+                <div class="col-md-10" data-aos="flip-down">
+                    <form action="">
+                         <div class="inputbox">
+                             <input type="text" placeholder="full name">
+                             <input type="number" placeholder="phone">
+                         </div>
+                         <div class="inputbox">
+                            <input type="email" placeholder="your email">
+                            <select name="" id="">
+                                <option value="" disabled selected >make an apointment</option>
+                                <option value="09-11 am">09:11 am</option>
+                                <option value="11:03 pm">11:03 pm</option>
+                                <option value="03:05 pm">03:05 pm</option>
+                                <option value="06:09 pm">06:09 pm</option>
+                                <option value="1:03 am">1:03 am</option>
+                            </select>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="message(optional)"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends  -->
+
+    <!-- post section starts  -->
+    <section id="post" class="post">
+        <div class="container min-vh-100">
+            <h1 class="heading">
+                <span>'</span>
+                our posts
+                <span>'</span>
+                <div class="box-container">
+                    <div class="box" data-aos="fade-right">
+                        <img src="./images/img.jpeg" alt="">
+                        <div class="content">
+                            <span>jan 5, 2021</span>
+                            <a href="#">
+                                <h3>post title goes here</h3>
+                            </a>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia beatae, neque deserunt nulla dignissimos sint nihil blanditiis, optio ullam labore dolores, consequatur cupiditate impedit magni animi veritatis pariatur eum nemo.</p>
+                                <a href="#"><button class="button">Learn More</button></a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="fade-up">
+                        <img src="./images/img.jpeg" alt="">
+                        <div class="content">
+                            <span>jan 5, 2021</span>
+                            <a href="#">
+                                <h3>post title goes here</h3>
+                            </a>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia beatae, neque deserunt nulla dignissimos sint nihil blanditiis, optio ullam labore dolores, consequatur cupiditate impedit magni animi veritatis pariatur eum nemo.</p>
+                                <a href="#"><button class="button">Learn More</button></a>
+                          
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="fade-left">
+                        <img src="./images/img.jpeg" alt="">
+                        <div class="content">
+                            <span>jan 5, 2021</span>
+                            <a href="#">
+                                <h3>post title goes here</h3>
+                            </a>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia beatae, neque deserunt nulla dignissimos sint nihil blanditiis, optio ullam labore dolores, consequatur cupiditate impedit magni animi veritatis pariatur eum nemo.</p>
+                                <a href="#"><button class="button">Learn More</button></a>
+                           
+                        </div>
+                    </div>
+                </div>
+            </h1>
+        </div>
+    </section>
+    <!-- post section ends  -->
+
+    <!-- footer section starts  -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-right">
+                    <a href="#" class="logo">
+                        <span>H</span>
+                        ealth
+                        <span>C</span>
+                        are.
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nesciunt provident possimus ut placeat facere quia quos quas, dolorum, reiciendis pariatur optio similique, commodi cum ipsa quibusdam tempora id earum!</p>
+
+                </div>
+
+                <div class="col-md-4 text-center" data-aos="fade-up">
+                    <h3>links</h3>
+                    <a href="#">Home</a>
+                    <a href="#">about</a>
+                    <a href="#">facility</a>
+                    <a href="#">review</a>
+                    <a href="#">contact</a>
+                    <a href="#">post</a>
+                </div>
+
+                <div class="col-md-4 text-center" data-aos="fade-left">
+                    <h3>share</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">instagram</a>
+                    <a href="#">github</a>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="credit text-center mx-auto">
+            created by
+            <span>mr. web design</span>
+            | all rights reserved
+        </h1>
+    </section>
+    <!-- footer section ends  -->
+
+
 </body>
 </html>
